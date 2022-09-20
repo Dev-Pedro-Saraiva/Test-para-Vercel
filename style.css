@@ -128,6 +128,28 @@ section h1 {
     background-color:rgb(137, 199, 199);
   }
   
+  svg {
+    transition: all 200ms;
+
+  }
+
+  svg:hover  {
+    transform: scale(1.1);
+    transition: all 200ms;
+
+  }
+
+  img {
+    transition: all 200ms;
+  }
+
+  img:hover {
+    transform: scale(1.1);
+    transition: all 200ms;
+
+  }
+
+  
   
   @keyframes topdown {
     0% {
